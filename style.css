@@ -16,28 +16,34 @@ body {
 }
 
 canvas {
-  border: 2px solid steelblue;
+  border: 50px solid rgb(225, 12, 12);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 }
 
 .toolbox {
-  background-color: steelblue;
-  border: 1px solid slateblue;
+  background-color: rgb(225, 12, 12);
+  /* border-top: 2px solid rgb(86, 3, 3); */
   display: flex;
-  width: 804px;
+  width: 900px;
   padding: 1rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 .toolbox > * {
-  background-color: white;
+  background-color: blue;
+  color: yellow;
   border: none;
+  border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  height: 50px;
-  width: 50px;
-  margin: 0.25rem;
-  padding: 0.25rem;
+  height: 70px;
+  width: 70px;
+  margin: 0.5rem;
+  padding: 0.5rem;
   cursor: pointer;
 }
 
